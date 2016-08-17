@@ -18,7 +18,7 @@
  * @link       http://cartalyst.com
  */
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Cartalyst\Sentry\Groups\GroupInterface;
 use Cartalyst\Sentry\Hashing\HasherInterface;
 use Cartalyst\Sentry\Users\LoginRequiredException;
